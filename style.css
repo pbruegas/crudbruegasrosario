@@ -1,0 +1,122 @@
+body{
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: darkgray;
+	background: linear-gradient(to right, beige, lightgray, darkgray);
+}
+.container{
+	max-width: 400px;
+	height: 350px;
+    margin: 50px 0 auto;
+	padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1.0);
+    margin: 0 auto;
+    background-color: beige;
+}
+
+.container h1{
+	text-align:center;
+}
+
+main{
+	padding: 100px;
+}
+
+.login-form{
+	max-width: 300px;
+	margin: 0 auto;
+}
+
+.login-form label{
+	display: block;
+	margin-bottom: 20px;
+}
+
+.login-form input[type="text"], 
+.login-form input[type="password"]{
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 30px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+}
+
+.submit-button{
+	width: 105%;
+    padding: 10px;
+    background-color: darkgray;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.submit-button:hover{
+	background-color: rosybrown;
+}
+
+header{
+	background-color: black;
+	padding: 20px;
+	text-align: right;
+}
+
+nav ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li{
+	display: inline;
+	margin-bottom: 20px;
+}
+
+nav ul li a{
+	color: #fff;
+	text-decoration: none;
+}
+
+table{
+	width: 80%;
+	border-collapse: collapse;
+	margin: 0 auto;
+	margin-top: 100px;
+	border-radius: 10px;
+}
+
+table th, table td{
+	border: 1px solid black;
+	padding: 8px;
+
+}
+
+table th{
+background-color: #f2f2f2;
+font-weight: bold;
+}
+
+table td button{
+	padding: 5px 10px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	margin-right: 5px;
+}
+
+table td button:last-child{
+	margin-right: 0;
+}
+
+.create{
+	text-align: right;
+	margin-right: 10%;
+	margin-top: 10px;
+	border-radius: 4px;
+}
